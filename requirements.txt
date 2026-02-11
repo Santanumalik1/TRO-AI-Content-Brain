@@ -1,0 +1,22 @@
+# TRO AI Content Brain - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Python Libraries
+pathlib2==2.3.7.post1  # Path handling (built-in for Python 3.4+)
+
+# NLP and Text Analysis (Optional - for advanced features)
+# Uncomment if you want to use these advanced features:
+# nltk==3.8.1
+# textblob==0.17.1
+# spacy==3.7.2
+
+# For future AI integrations (Optional)
+# openai==1.6.1  # If you want to integrate OpenAI API
+# anthropic==0.7.0  # If you want to integrate Claude API
+
+# Testing (Optional - for developers)
+# pytest==7.4.3
+# pytest-cov==4.1.0
+
+# Note: The basic content analyzer works with Python standard library only!
+# No external dependencies are strictly required for basic functionality.
